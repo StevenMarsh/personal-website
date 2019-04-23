@@ -1,31 +1,31 @@
-/* line 5, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 5, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .mainbar {
   background-color: #202C39;
 }
 
-/* line 8, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 8, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .navbar-nav {
   width: 100%;
   justify-content: space-around;
 }
 
-/* line 14, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 14, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .navbar-nav .nav-item .nav-link {
   color: white !important;
 }
 
-/* line 20, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 20, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid {
   background-image: linear-gradient(to right, #B8B09D, #F2D492);
 }
 
-/* line 24, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 24, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info .para {
   display: flex;
   justify-content: center;
 }
 
-/* line 27, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 27, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info .para #aboutMe {
   text-align: center;
   box-shadow: 5px 10px 8px #888888;
@@ -38,7 +38,7 @@
   font-family: Helvetica;
 }
 
-/* line 40, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 40, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info .mepic {
   width: 100%;
   display: flex;
@@ -46,13 +46,13 @@
   padding-bottom: 30px;
 }
 
-/* line 45, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 45, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info .mepic img {
   width: 35%;
   height: 300px;
 }
 
-/* line 50, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 50, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv {
   width: 100%;
   display: flex;
@@ -61,7 +61,7 @@
   margin-bottom: 20px;
 }
 
-/* line 56, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 56, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv span {
   font-size: 50px;
   font-weight: bold;
@@ -71,64 +71,64 @@
   animation-iteration-count: 6;
 }
 
-/* line 64, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 64, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #T {
   animation-delay: .2s;
 }
 
-/* line 67, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 67, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #firstE {
   animation-delay: .4s;
 }
 
-/* line 70, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 70, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #v {
   animation-delay: .6s;
 }
 
-/* line 73, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 73, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #nde {
   animation-delay: .8s;
 }
 
-/* line 76, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 76, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #n {
   animation-delay: 1s;
   padding-right: 20px;
 }
 
-/* line 80, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 80, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #a {
   animation-delay: .2s;
 }
 
-/* line 83, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 83, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #r {
   animation-delay: .4s;
 }
 
-/* line 86, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 86, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #littleS {
   animation-delay: .6s;
 }
 
-/* line 89, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 89, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .info #titleDiv #h {
   animation-delay: .8s;
 }
 
-/* line 95, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 95, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .outericon {
   display: flex;
   justify-content: center;
 }
 
-/* line 98, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 98, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .outericon .icons {
   justify-content: space-around;
 }
 
-/* line 101, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 101, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .container-fluid .outericon .icons .icon {
   display: flex;
   justify-content: center;
@@ -147,12 +147,12 @@
   }
 }
 
-/* line 122, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 122, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 127, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 127, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .frame {
   width: 33%;
   height: 400px;
@@ -167,25 +167,25 @@
   margin-bottom: 50px;
 }
 
-/* line 139, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 139, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .frame:nth-child(1) {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
-/* line 143, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 143, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .frame:nth-child(3) {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
-/* line 149, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 149, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 #candleholder {
   display: flex;
   width: 100%;
 }
 
-/* line 153, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 153, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .flame {
   width: 20px;
   height: 30px;
@@ -194,7 +194,7 @@
   animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flicker 13s ease-in-out infinite;
 }
 
-/* line 162, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 162, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 #flame2 {
   width: 20px;
   height: 30px;
@@ -203,7 +203,7 @@
   animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flicker 13s ease-in-out infinite;
 }
 
-/* line 170, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 170, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 #flame3 {
   width: 20px;
   height: 30px;
@@ -212,14 +212,14 @@
   animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flicker 13s ease-in-out infinite;
 }
 
-/* line 178, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 178, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .wick {
   width: 3px;
   height: 6px;
   background: burlywood;
 }
 
-/* line 184, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 184, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .candle {
   width: 50px;
   height: 90px;
@@ -228,7 +228,7 @@
   box-shadow: -7px 0 0 0 #999 inset;
 }
 
-/* line 192, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 192, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .bottom {
   width: 100px;
   height: 5px;
@@ -236,28 +236,28 @@
   border-radius: 5px;
 }
 
-/* line 199, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+/* line 199, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .focus {
   transform: scale(1.2);
 }
 
 @media (max-width: 992px) {
-  /* line 204, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+  /* line 204, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
   .wrapper {
     display: none;
   }
-  /* line 208, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+  /* line 208, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
   .mepic img {
     width: 80% !important;
   }
-  /* line 212, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+  /* line 212, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
   .icons {
     flex-direction: column;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 219, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/aboutMe.scss */
+  /* line 219, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
   .icons {
     flex-direction: row;
   }
@@ -317,4 +317,4 @@
   }
 }
 
-/*# sourceMappingURL=../css/aboutMe.map */
+/*# sourceMappingURL=../css/index.map */
