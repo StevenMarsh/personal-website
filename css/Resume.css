@@ -1,0 +1,69 @@
+/* line 4, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #B8B09D;
+}
+
+/* line 10, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+.mainbar {
+  background-color: #202C39;
+}
+
+/* line 13, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+.navbar-nav {
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* line 19, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+}
+
+/* line 24, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+.showing {
+  display: block !important;
+}
+
+/* line 27, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+#container {
+  background-image: linear-gradient(to right, #B8B09D, #F2D492);
+  display: grid;
+  grid-template-rows: 100px 800px;
+  grid-template-columns: 5% 15% 60% 15% 5%;
+  grid-gap: 5px;
+}
+
+/* line 33, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+#container #showResume {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  margin: auto;
+}
+
+/* line 38, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+#container #contact {
+  padding: auto;
+  margin: auto;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+/* line 44, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+#container #print {
+  margin: auto;
+  padding: auto;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* line 50, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
+#container #resume {
+  margin: auto;
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+  display: none;
+}
+
+/*# sourceMappingURL=../css/Resume.map */

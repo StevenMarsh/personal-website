@@ -1,0 +1,278 @@
+$tan: #B8B09D;
+$nav: #202C39;
+$light: #F2D492;
+
+.mainbar{
+	background-color: $nav;
+}
+.navbar-nav{
+	width: 100%;
+	justify-content: space-around;
+	
+	.nav-item{
+		
+		.nav-link{
+			color: white !important;
+		}
+	}
+}
+
+.container-fluid{
+	background-image: linear-gradient(to right, $tan, $light);
+
+	.info{
+		.para{
+			display: flex;
+			justify-content: center;
+			#aboutMe{
+				text-align: center;
+				box-shadow: 5px 10px 8px #888888;
+				padding: 3px;
+				font-size: 20px;
+				margin-top: 30px;
+				border: 2px solid grey;
+				width: 60%;
+				background-color: #F2D492;
+				font-family: Helvetica;
+			}
+		}
+		
+		.mepic{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 30px;
+			img{
+				width: 35%;
+				height: 300px;
+			}
+		}
+		#titleDiv{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin-top: 15px;
+			margin-bottom: 20px;
+			span{
+				font-size: 50px;
+				font-weight: bold;
+				color: rgba(0,0,0,.8);
+				animation-name: fade;
+				animation-duration: 2s;
+				animation-iteration-count: 6;
+			}
+			#T{
+				animation-delay: .2s;
+			}
+			#firstE{
+				animation-delay: .4s;
+			}
+			#v{
+				animation-delay: .6s;
+			}
+			#nde{
+				animation-delay: .8s;
+			}
+			#n{
+				animation-delay: 1s;
+				padding-right: 20px;
+			}
+			#a{
+				animation-delay: .2s;
+			}
+			#r{
+				animation-delay: .4s;
+			}
+			#littleS{
+				animation-delay: .6s;
+			}
+			#h{
+				animation-delay: .8s;
+			}
+		}
+	}
+
+	.outericon{
+		display: flex;
+		justify-content: center;
+		.icons{
+			justify-content: space-around;
+
+			.icon{
+				display: flex;
+				justify-content: center;
+			}
+		}
+	} 
+		
+		
+}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		color: $nav;
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.frame {
+	width: 33%;
+	height: 400px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: rgb(1, 1, 34);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+	&:nth-child(1){
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+	&:nth-child(3){
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+}
+
+#candleholder{
+	display: flex;
+	width: 100%;
+}
+.flame {
+	width: 20px;
+	height: 30px;
+	background: radial-gradient(orange, gold);
+	border-radius: 10px 10px 10px 10px / 20px 20px 10px 10px;
+	animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite,
+		flicker 13s ease-in-out infinite;
+}
+
+#flame2{
+	width: 20px;
+	height: 30px;
+	background: radial-gradient(blue, white);
+	border-radius: 10px 10px 10px 10px / 20px 20px 10px 10px;
+	animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite,
+		flicker 13s ease-in-out infinite;
+}
+#flame3{
+	width: 20px;
+	height: 30px;
+	background: radial-gradient(green, purple);
+	border-radius: 10px 10px 10px 10px / 20px 20px 10px 10px;
+	animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite,
+		flicker 13s ease-in-out infinite;
+}
+.wick {
+	width: 3px;
+	height: 6px;
+	background: burlywood;
+}
+
+.candle {
+	width: 50px;
+	height: 90px;
+	background: lightgrey;
+	border-radius: 5px;
+	box-shadow: -7px 0 0 0 #999 inset;
+}
+
+.bottom {
+	width: 100px;
+	height: 5px;
+	background: #666;
+	border-radius: 5px;
+}
+
+.focus{
+	transform: scale(1.2);
+}
+
+@media(max-width: 992px){
+	.wrapper{
+		display: none;
+	}
+	.mepic{
+		img{
+			width: 80% !important;
+		}
+	}
+	.icons{
+		flex-direction: column;
+	}
+
+}
+
+@media(max-width: 767px){
+	.icons{
+		flex-direction: row;
+	}
+}
+@keyframes wind {
+	0%,
+	22%,
+	49%,
+	62%,
+	81%,
+	100% {
+		border-radius: 4px 15px 10px 10px / 20px 20px 10px 10px;
+	}
+
+	14%,
+	32%,
+	56%,
+	70%,
+	89% {
+		border-radius: 14px 3px 10px 10px / 20px 20px 10px 10px;
+	}
+}
+
+@keyframes size {
+	0%,
+	22%,
+	49%,
+	62%,
+	81%,
+	100% {
+		transform: scale(1, 1);
+	}
+
+	14%,
+	32%,
+	56%,
+	70%,
+	89% {
+		transform: scale(0.8, 1.3);
+	}
+}
+
+@keyframes flicker {
+	0%,
+	22%,
+	49%,
+	62%,
+	81%,
+	100% {
+		box-shadow: 0 0 15px 0 rgba(255, 202, 0, 0.7);
+	}
+
+	14%,
+	32%,
+	56%,
+	70%,
+	89% {
+		box-shadow: 0 0 15px 0 rgba(255, 202, 0, 0.3);
+	}
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/Resume.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Resume</title>
+</head>
+<body>
+	<nav class = "mainbar navbar navbar-expand navbar-light">
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class = "navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href = "particles.js-master/landingPage/landing.html">Home Page</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href = "index.html">About Me</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href = "#">Projects</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href = "Resume.html">Resume</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div id = "container">
+		<div id = "contact">
+			<a href="mailto:marshs@usc.edu"><button class = "btn btn-secondary">Contact</button></a>
+		</div>
+		<div id = "showResume" alt = "false">
+			<button id = "toggle" onclick ="toggle()" class = "btn btn-secondary">Display Resume</button>
+		</div>
+		<div id = "resume">
+			<img id = "resPic" src="resume.png">
+		</div>
+		<div id = "print">
+			<button onclick ="toPrint()" class = "btn btn-secondary">Print Resume</button>
+		</div>
+	</div>
+</body>
+<script>
+	function toPrint(){
+		document.querySelector("#contact").style.display = "none";
+		document.querySelector("#print").style.display = "none";
+		document.querySelector("#showResume").style.display = "none";
+		document.querySelector("#resume").style.display = "block";
+		window.print();
+		document.querySelector("#resume").style.display = "none";
+		document.querySelector("#contact").style.display = "block";
+		document.querySelector("#print").style.display = "block";
+		document.querySelector("#showResume").style.display = "block";
+	}
+
+	function toggle(){
+		document.querySelector("#resume").classList.toggle("showing");
+		if ($("#resume").hasClass("showing")){
+			document.querySelector("#toggle").innerHTML = "Hide Resume";
+			document.querySelector("#showResume").alt ="true";
+			
+		} else {
+			document.querySelector("#toggle").innerHTML = "Display Resume";
+			document.querySelector("#showResume").alt ="false";
+		}
+	}
+</script>
+</html>
