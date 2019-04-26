@@ -1,6 +1,3 @@
-/* =============================================================================
-   HTML5 CSS Reset Minified - Eric Meyer
-   ========================================================================== */
 
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
@@ -18,11 +15,6 @@ input,select{vertical-align:middle}
 li{list-style:none}
 
 
-/* =============================================================================
-   My CSS
-   ========================================================================== */
-
-/* ---- base ---- */
 
 html,body{ 
 	width:100%;
@@ -67,6 +59,9 @@ canvas{
   color: #402d2d;
 }
 
+#nametag{
+  margin-top: 20px;
+}
 .ml5 .text-wrapper {
   position: relative;
   display: inline-block;
@@ -91,7 +86,37 @@ canvas{
   display: inline-block;
   opacity: 0;
 }
+.mepic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
 
+/* line 45, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+.mepic img {
+  width: 40%;
+  height: 400px;
+}
+
+.focus {
+  transform: scale(1.2);
+}
+.outericon {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 98, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+.outericon .icons {
+  justify-content: space-around;
+}
+
+/* line 101, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+.outericon .icons .icon {
+  display: flex;
+  justify-content: center;
+}
 /* ---- particles.js container ---- */
 
 #particles-js{

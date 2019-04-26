@@ -5,10 +5,23 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<title>Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Resume | Steven Marsh</title>
 </head>
 <body>
-	<nav class = "mainbar navbar navbar-expand navbar-light">
+	<nav class = "mainbar navbar navbar-expand-md navbar-light">
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    	</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class = "navbar-nav">
 				<li class="nav-item active">
@@ -18,7 +31,7 @@
 					<a class="nav-link" href = "index.html">About Me</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href = "#">Projects</a>
+					<a class="nav-link" href = "projects.html">Projects</a>
 				</li>
 				<li class="nav-item active">
 					<a class="nav-link" href = "Resume.html">Resume</a>
@@ -26,6 +39,7 @@
 			</ul>
 		</div>
 	</nav>
+
 	<div id = "container">
 		<div id = "contact">
 			<a href="mailto:marshs@usc.edu"><button class = "btn btn-secondary">Contact</button></a>
@@ -34,7 +48,7 @@
 			<button id = "toggle" onclick ="toggle()" class = "btn btn-secondary">Display Resume</button>
 		</div>
 		<div id = "resume">
-			<img id = "resPic" src="resume.png">
+			<img style = "width: 100%; height: 100%;" id = "resPic" src="resume.png">
 		</div>
 		<div id = "print">
 			<button onclick ="toPrint()" class = "btn btn-secondary">Print Resume</button>

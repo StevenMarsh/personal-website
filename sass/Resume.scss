@@ -4,7 +4,8 @@ $light: #F2D492;
 body, html{
 	margin: 0;
 	padding: 0;
-	background-color: $tan;
+	background-image: linear-gradient(to right, $tan, $light);
+	display: grid;
 }
 
 .mainbar{

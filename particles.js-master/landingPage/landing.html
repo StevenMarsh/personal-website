@@ -2,7 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Steven Marsh</title>
+  <title>Home Page | Steven Marsh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
   <meta name="author" content="Vincent Garreau" />
@@ -10,15 +20,17 @@
   <link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body>
-
-<!-- count particles -->
-
-
 <!-- particles.js container -->
-<div id="particles-js">
-  <nav class = "mainbar navbar navbar-expand navbar-light">
+<div id="particles-js" style = "position: absolute;">
+  
+</div>
+<div id = "info" style = "position: relative;">
+  <nav class = "mainbar navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class = "navbar-nav">
+      <ul class = "navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href = "landing.html">Home Page</a>
         </li>
@@ -34,7 +46,7 @@
       </ul>
     </div>
   </nav>
-  <div class = "row justify-content-center">
+  <div class = "row">
     <div class = "col-12" id = "nametag">
       <h1 class="ml5">
         <span class="text-wrapper">
@@ -44,6 +56,22 @@
           <span class="line line2"></span>
         </span>
       </h1>
+    </div>
+    <div style = "margin-top: 80px;" class="mepic col-12">
+        <img class ="meImg img-thumbnail" src="../../me.jpeg">
+    </div>
+    <div style = "margin-top: 25px;" style = "display: flex; justify-content: center;" class ="outericon col-12">
+        <div class = "icons row">
+          <div class = "icon col-4">
+            <i id = "toGithub" class="fa fa-github-square" style="font-size:36px"></i>
+          </div>
+          <div class = "icon col-4">
+            <i id = "toLinkedIn" class="fa fa-linkedin-square" style="font-size:36px"></i>
+          </div>
+          <div class = "icon col-4">
+            <i id = "toInsta" class="fa fa-instagram" style="font-size:36px"></i>
+          </div>
+        </div>
     </div>
   </div>
 </div>
@@ -83,6 +111,28 @@
     duration: 600,
     offset: '-=600'
   });
+  var icons = document.getElementsByClassName("fa");
+   for(let i = 0; i < icons.length; i++){
+    icons[i].onmouseenter = function(){
+      icons[i].style.cursor = "pointer";
+    }
+   }
+  document.querySelector("#toGithub").onclick = function(){
+    window.location.href = "https://github.com/StevenMarsh";
+  }
+  document.querySelector("#toLinkedIn").onclick = function(){
+    window.location.href = "https://www.linkedin.com/in/steven-marsh-0491a3149/";
+  }
+  document.querySelector("#toInsta").onclick = function(){
+    window.location.href = "https://www.instagram.com/stevenmaarsh/?hl=en";
+  }
+  document.querySelector(".meImg").onmouseenter = function(){
+    document.querySelector(".meImg").classList.add("focus");
+    
+  }
+  document.querySelector(".meImg").onmouseleave = function(){
+    document.querySelector(".meImg").classList.remove("focus");
+  }
 </script>
 <!-- stats.js -->
 
