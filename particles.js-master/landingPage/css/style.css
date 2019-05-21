@@ -39,6 +39,10 @@ canvas{
 #nametag{
   text-align: center;
 }
+
+.text-wrapper{
+  font-size: 100px;
+}
 /* line 13, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/Resume.scss */
 .navbar-nav {
   width: 100%;
@@ -59,9 +63,6 @@ canvas{
   color: #402d2d;
 }
 
-#nametag{
-  margin-top: 20px;
-}
 .ml5 .text-wrapper {
   position: relative;
   display: inline-block;
@@ -95,7 +96,7 @@ canvas{
 
 /* line 45, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
 .mepic img {
-  width: 40%;
+  width: 60%;
   height: 400px;
 }
 
@@ -116,6 +117,27 @@ canvas{
 .outericon .icons .icon {
   display: flex;
   justify-content: center;
+}
+
+
+@media(max-width: 767px){
+  #nametag .text-wrapper{
+    font-size: 80px; 
+  }
+  .mepic img {
+    width: 60%;
+    height: 300px;
+  }
+}
+
+@media(max-width: 480px){
+  #nametag .text-wrapper{
+    font-size: 50px; 
+  }
+  .mepic img {
+    width: 70%;
+    height: 300px;
+  }
 }
 /* ---- particles.js container ---- */
 

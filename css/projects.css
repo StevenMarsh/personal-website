@@ -131,8 +131,13 @@ body {
   margin-bottom: 40px;
 }
 
-/* Fading animation */
 /* line 121, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/projects.scss */
+#other {
+  padding-bottom: 50px;
+}
+
+/* Fading animation */
+/* line 125, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/projects.scss */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 4s;
@@ -141,7 +146,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 129, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/projects.scss */
+  /* line 133, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/projects.scss */
   #pyth, #minch {
     margin-bottom: 35px !important;
   }

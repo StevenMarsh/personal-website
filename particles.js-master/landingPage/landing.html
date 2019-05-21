@@ -47,7 +47,7 @@
     </div>
   </nav>
   <div class = "row">
-    <div class = "col-12" id = "nametag">
+    <div style = "margin-top: 120px;" class = "col-12" id = "nametag">
       <h1 class="ml5">
         <span class="text-wrapper">
           <span class="line line1"></span>
@@ -57,7 +57,7 @@
         </span>
       </h1>
     </div>
-    <div style = "margin-top: 80px;" class="mepic col-12">
+    <div style = "margin-top: 120px;" class="mepic col-12">
         <img class ="meImg img-thumbnail" src="../../me.jpeg">
     </div>
     <div style = "margin-top: 25px;" style = "display: flex; justify-content: center;" class ="outericon col-12">
@@ -118,13 +118,13 @@
     }
    }
   document.querySelector("#toGithub").onclick = function(){
-    window.location.href = "https://github.com/StevenMarsh";
+    window.open("https://github.com/StevenMarsh");
   }
   document.querySelector("#toLinkedIn").onclick = function(){
-    window.location.href = "https://www.linkedin.com/in/steven-marsh-0491a3149/";
+    window.open("https://www.linkedin.com/in/steven-marsh-0491a3149/");
   }
   document.querySelector("#toInsta").onclick = function(){
-    window.location.href = "https://www.instagram.com/stevenmaarsh/?hl=en";
+    window.open("https://www.instagram.com/stevenmaarsh/?hl=en");
   }
   document.querySelector(".meImg").onmouseenter = function(){
     document.querySelector(".meImg").classList.add("focus");

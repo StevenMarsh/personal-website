@@ -28,7 +28,7 @@ body, html{
 #container{
 	background-image: linear-gradient(to right, $tan, $light);
 	display: grid;
-	grid-template-rows: 100px 800px;
+	grid-template-rows: 100px 1500px 100px;
 	grid-template-columns: 5% 15% 60% 15% 5%;
 	grid-gap: 5px; 
 	#showResume{
