@@ -1,25 +1,25 @@
-/* line 5, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 5, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .mainbar {
   background-color: #202C39;
 }
 
-/* line 8, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 8, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .navbar-nav {
   width: 100%;
   justify-content: space-around;
 }
 
-/* line 14, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 14, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .navbar-nav .nav-item .nav-link {
   color: white !important;
 }
 
-/* line 20, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 20, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid {
-  background-image: linear-gradient(to right, #B8B09D, #F2D492);
+  background-image: linear-gradient(to right, #f5f5f5, grey);
 }
 
-/* line 25, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 25, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info .mepic {
   width: 100%;
   display: flex;
@@ -27,13 +27,13 @@
   padding-bottom: 30px;
 }
 
-/* line 30, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 30, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info .mepic img {
   width: 35%;
   height: 300px;
 }
 
-/* line 35, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 35, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv {
   width: 100%;
   display: flex;
@@ -42,7 +42,7 @@
   margin-bottom: 20px;
 }
 
-/* line 41, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 41, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv span {
   font-size: 65px;
   font-weight: bold;
@@ -52,70 +52,70 @@
   animation-iteration-count: 6;
 }
 
-/* line 49, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 49, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #T {
   animation-delay: .2s;
 }
 
-/* line 52, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 52, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #firstE {
   animation-delay: .4s;
 }
 
-/* line 55, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 55, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #v {
   animation-delay: .6s;
 }
 
-/* line 58, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 58, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #nde {
   animation-delay: .8s;
 }
 
-/* line 61, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 61, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #n {
   animation-delay: 1s;
   padding-right: 20px;
 }
 
-/* line 65, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 65, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #a {
   animation-delay: .2s;
 }
 
-/* line 68, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 68, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #r {
   animation-delay: .4s;
 }
 
-/* line 71, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 71, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #littleS {
   animation-delay: .6s;
 }
 
-/* line 74, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 74, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .info #titleDiv #h {
   animation-delay: .8s;
 }
 
-/* line 80, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 80, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .outericon {
   display: flex;
   justify-content: center;
 }
 
-/* line 83, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 83, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .outericon .icons {
   justify-content: space-around;
 }
 
-/* line 86, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 86, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid .outericon .icons .icon {
   display: flex;
   justify-content: center;
 }
 
-/* line 94, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 94, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #education ul {
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -124,30 +124,30 @@
   display: inline-block;
 }
 
-/* line 102, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 102, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #education #highschool {
   border-right: 2px solid grey;
   text-align: center;
 }
 
-/* line 105, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 105, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #education #highschool h2 {
   font-family: cursive;
 }
 
-/* line 110, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 110, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #education #college {
   padding-top: 40px;
   border-left: 2px solid grey;
   text-align: center;
 }
 
-/* line 118, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 118, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment {
   text-align: center;
 }
 
-/* line 120, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 120, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment p {
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -155,32 +155,32 @@
   width: 60%;
 }
 
-/* line 126, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 126, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment h2 {
   font-family: cursive;
 }
 
-/* line 129, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 129, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment .title {
   font-size: 20px;
   font-weight: bolder;
   margin-bottom: 10px;
 }
 
-/* line 134, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 134, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment #jep, .container-fluid #involvment #tmg {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 140, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 140, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment #jep {
   padding-top: 25px;
   border-right: 2px solid grey;
 }
 
-/* line 144, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 144, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .container-fluid #involvment #tmg {
   padding-top: 95px;
   border-left: 2px solid grey;
@@ -199,12 +199,12 @@
   }
 }
 
-/* line 164, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 164, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 169, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 169, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .frame {
   width: 33%;
   height: 400px;
@@ -220,13 +220,13 @@
   border-radius: 50%;
 }
 
-/* line 184, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 184, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 #candleholder {
   display: flex;
   width: 100%;
 }
 
-/* line 188, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 188, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .flame {
   width: 20px;
   height: 30px;
@@ -235,14 +235,14 @@
   animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flicker 13s ease-in-out infinite;
 }
 
-/* line 197, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 197, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .wick {
   width: 3px;
   height: 6px;
   background: burlywood;
 }
 
-/* line 203, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 203, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .candle {
   width: 50px;
   height: 90px;
@@ -251,7 +251,7 @@
   box-shadow: -7px 0 0 0 #999 inset;
 }
 
-/* line 211, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 211, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .bottom {
   width: 100px;
   height: 5px;
@@ -259,32 +259,32 @@
   border-radius: 5px;
 }
 
-/* line 218, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+/* line 218, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
 .focus {
   transform: scale(1.2);
 }
 
 @media (max-width: 992px) {
-  /* line 223, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+  /* line 223, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
   .wrapper {
     display: none;
   }
-  /* line 227, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+  /* line 227, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
   .mepic img {
     width: 80% !important;
   }
-  /* line 231, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+  /* line 231, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
   .icons {
     flex-direction: column;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 238, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+  /* line 238, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
   #highschool, #college {
     border-right: none !important;
   }
-  /* line 244, /Users/stevenmarsh/Desktop/itp302/finalprojectMarsh/sass/index.scss */
+  /* line 244, /Users/stevenmarsh/Desktop/itp302/personal-website/sass/index.scss */
   .container-fluid .info #titleDiv span {
     font-size: 40px;
   }
